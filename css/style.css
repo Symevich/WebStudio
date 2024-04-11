@@ -1,3 +1,12 @@
+:root{
+  --accent-color: #2196F3;
+  --text-color: #212121;
+  --low-text-color: #757575;
+  --footer-background: #2F303A;
+  --main-background: #FFFFFF;
+  --main-team: #F5F4FA;
+}
+
 * {
   text-align: center;
 }
@@ -8,15 +17,15 @@ li {
 
 a {
   text-decoration: none;
-  color: black;
+  color: var(--text-color);
 }
 
 .blue {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .orderbutton {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: #ffffff;
   width: 216px;
   height: 50px;
@@ -33,17 +42,24 @@ h1 {
   font-weight: 700;
   font-style: normal;
   font-size: 44px;
-  text-align: center;
 }
 
 footer {
-    background-color: #2F303A;
+    background-color: var(--footer-background);
 }
 
 .order{
-    background-color: #2F303A;
+    background-color: var(--footer-background);
 }
 
 .selected {
-    background-color: #2196f3;
+    background-color: var(--accent-color);
+}
+
+.lowtext {
+  color: var(--low-text-color);
+}
+
+.basictext {
+  color: var(--text-color);
 }
