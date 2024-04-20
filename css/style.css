@@ -64,6 +64,7 @@ a {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
+  cursor: pointer;
 }
 
 .plusestitles {
@@ -118,10 +119,6 @@ a {
   color: var(--low-text-color);
 }
 
-.selected {
-    background-color: var(--accent-color);
-}
-
 footer {
   background-color: var(--footer-background);
 }
@@ -149,4 +146,91 @@ footer {
   font-style: normal;
   font-size: 14px;
   color: #ffffff60;
+}
+
+.projecttitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.projecttext {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: var(--low-text-color);
+}
+
+.filterall {
+  width: 73px;
+  height: 38px;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  border: 0px;
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.filterwebsite {
+  width: 125px;
+  height: 38px;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  color: var(--text-color);
+  border: 0px;
+  cursor: pointer;
+}
+
+.filterapps {
+  width: 112px;
+  height: 38px;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  color: var(--text-color);
+  border: 0px;
+  cursor: pointer;
+}
+
+.filterdesign {
+  width: 103px;
+  height: 38px;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  color: var(--text-color);
+  border: 0px;
+  cursor: pointer;
+}
+
+.filtermarketing {
+  width: 130px;
+  height: 38px;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  color: var(--text-color);
+  border: 0px;
+  cursor: pointer;
 }
