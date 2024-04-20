@@ -2,13 +2,22 @@
   --accent-color: #2196F3;
   --text-color: #212121;
   --low-text-color: #757575;
+  --upper-line-color: #ECECEC;
+  --hat-color: #2F303A;
+  --our-team-background: #F5F4FA;
   --footer-background: #2F303A;
-  --main-background: #FFFFFF;
-  --main-team: #F5F4FA;
 }
 
 * {
   text-align: center;
+}
+
+.title {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
 }
 
 li {
@@ -20,8 +29,28 @@ a {
   color: var(--text-color);
 }
 
-.blue {
+#blue {
   color: var(--accent-color);
+}
+
+.navtext {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.order {
+  background-color: var(--hat-color);
+}
+
+.ordertitle{
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 44px;
+  color: #FFFFFF;
 }
 
 .orderbutton {
@@ -37,29 +66,87 @@ a {
   font-style: normal;
 }
 
-h1 {
+.plusestitles {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 44px;
+  font-size: 14px;
+  color: var(--text-color);
 }
 
-footer {
-    background-color: var(--footer-background);
+.plusestext {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: var(--low-text-color);
 }
 
-.order{
-    background-color: var(--footer-background);
+.whatwedotitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  color: var(--text-color);
+}
+
+.ourteam {
+  background-color: var(--our-team-background);
+}
+
+.ourteamtitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  color: var(--text-color);
+}
+
+.ourteamnames {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.ourteamtext {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: var(--low-text-color);
 }
 
 .selected {
     background-color: var(--accent-color);
 }
 
-.lowtext {
-  color: var(--low-text-color);
+footer {
+  background-color: var(--footer-background);
 }
 
-.basictext {
-  color: var(--text-color);
+.footertitle {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+.footeradress {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.footertext {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #ffffff60;
 }
