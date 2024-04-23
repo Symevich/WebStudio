@@ -12,11 +12,15 @@
   text-align: center;
 }
 
-.title {
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.header-logo {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
-  font-style: normal;
   font-size: 26px;
 }
 
@@ -33,10 +37,8 @@ a {
   color: var(--accent-color);
 }
 
-.navtext {
-  font-family: "Roboto", sans-serif;
+.navigation-item {
   font-weight: 500;
-  font-style: normal;
   font-size: 14px;
   color: var(--text-color);
 }
@@ -45,15 +47,13 @@ a {
   background-color: var(--hat-color);
 }
 
-.ordertitle{
-  font-family: "Roboto", sans-serif;
+.order-title{
   font-weight: 900;
-  font-style: normal;
   font-size: 44px;
   color: #FFFFFF;
 }
 
-.orderbutton {
+.order-button {
   background-color: var(--accent-color);
   color: #ffffff;
   width: 216px;
@@ -61,60 +61,46 @@ a {
   border-radius: 4px;
   border-width: 0px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-style: normal;
   cursor: pointer;
 }
 
-.plusestitles {
-  font-family: "Roboto", sans-serif;
+.pluses-titles {
   font-weight: 700;
-  font-style: normal;
   font-size: 14px;
   color: var(--text-color);
 }
 
-.plusestext {
-  font-family: "Roboto", sans-serif;
+.pluses-text {
   font-weight: 400;
-  font-style: normal;
   font-size: 14px;
   color: var(--low-text-color);
 }
 
-.whatwedotitle {
-  font-family: "Roboto", sans-serif;
+.what-we-do-title {
   font-weight: 700;
-  font-style: normal;
   font-size: 36px;
   color: var(--text-color);
 }
 
-.ourteam {
+.team {
   background-color: var(--our-team-background);
 }
 
-.ourteamtitle {
-  font-family: "Roboto", sans-serif;
+.team-title {
   font-weight: 700;
-  font-style: normal;
   font-size: 36px;
   color: var(--text-color);
 }
 
-.ourteamnames {
-  font-family: "Roboto", sans-serif;
+.team-names {
   font-weight: 500;
-  font-style: normal;
   font-size: 16px;
   color: var(--text-color);
 }
 
-.ourteamtext {
-  font-family: "Roboto", sans-serif;
+.team-text {
   font-weight: 400;
-  font-style: normal;
   font-size: 16px;
   color: var(--low-text-color);
 }
@@ -123,54 +109,45 @@ footer {
   background-color: var(--footer-background);
 }
 
-.footertitle {
+.footer-logo {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
-  font-style: normal;
   font-size: 26px;
   color: #FFFFFF;
 }
 
-.footeradress {
-  font-family: "Roboto", sans-serif;
+.footer-address-link {
   font-weight: 400;
-  font-style: normal;
   font-size: 14px;
+  font-style: normal;
   color: #ffffff;
 }
 
-.footertext {
-  font-family: "Roboto", sans-serif;
+.footer-info {
   font-weight: 400;
-  font-style: normal;
   font-size: 14px;
+  font-style: normal;
   color: #ffffff60;
 }
 
-.projecttitle {
-  font-family: "Roboto", sans-serif;
+.project-name {
   font-weight: 700;
-  font-style: normal;
   font-size: 18px;
   color: var(--text-color);
 }
 
-.projecttext {
-  font-family: "Roboto", sans-serif;
+.project-type {
   font-weight: 400;
-  font-style: normal;
   font-size: 16px;
   color: var(--low-text-color);
 }
 
-.filterall {
+.filter-all {
   width: 73px;
   height: 38px;
   border-radius: 4px;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-style: normal;
   font-size: 16px;
   text-align: center;
   color: #ffffff;
@@ -179,13 +156,11 @@ footer {
   cursor: pointer;
 }
 
-.filterwebsite {
+.filter-website {
   width: 125px;
   height: 38px;
   border-radius: 4px;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-style: normal;
   font-size: 16px;
   text-align: center;
   color: var(--text-color);
@@ -193,13 +168,11 @@ footer {
   cursor: pointer;
 }
 
-.filterapps {
+.filter-apps {
   width: 112px;
   height: 38px;
   border-radius: 4px;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-style: normal;
   font-size: 16px;
   text-align: center;
   color: var(--text-color);
@@ -207,13 +180,11 @@ footer {
   cursor: pointer;
 }
 
-.filterdesign {
+.filter-design {
   width: 103px;
   height: 38px;
   border-radius: 4px;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-style: normal;
   font-size: 16px;
   text-align: center;
   color: var(--text-color);
@@ -221,13 +192,11 @@ footer {
   cursor: pointer;
 }
 
-.filtermarketing {
+.filter-marketing {
   width: 130px;
   height: 38px;
   border-radius: 4px;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-style: normal;
   font-size: 16px;
   text-align: center;
   color: var(--text-color);
