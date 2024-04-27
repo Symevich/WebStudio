@@ -6,7 +6,10 @@
   --hat-color: #2F303A;
   --our-team-background: #F5F4FA;
   --footer-background: #2F303A;
+  --footer-text-color: rgba(255, 255, 255, 0.60);
 }
+
+/* font-family: "Raleway", sans-serif; */
 
 * {
   text-align: center;
@@ -14,14 +17,14 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
 }
 
 .header-logo {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
+  color: var(--accent-color);
+  font-family: "Raleway", sans-serif;;
   font-size: 26px;
+  font-weight: 700;
+  line-height: 1.38;
 }
 
 li {
@@ -38,8 +41,9 @@ a {
 }
 
 .navigation-item {
-  font-weight: 500;
   font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
   color: var(--text-color);
 }
 
@@ -48,39 +52,47 @@ a {
 }
 
 .order-title{
-  font-weight: 900;
+  color: #FFF;
+  text-align: center;
   font-size: 44px;
-  color: #FFFFFF;
+  font-weight: 900;
+  line-height: 1.36;
+  text-transform: uppercase;
 }
 
 .order-button {
-  background-color: var(--accent-color);
-  color: #ffffff;
   width: 216px;
   height: 50px;
   border-radius: 4px;
-  border-width: 0px;
+  background: var(--accent-color);
+  color: #FFF;
+  text-align: center;
   font-size: 16px;
   font-weight: 700;
-  cursor: pointer;
+  line-height: 1.87;
 }
 
 .pluses-titles {
-  font-weight: 700;
-  font-size: 14px;
   color: var(--text-color);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .pluses-text {
-  font-weight: 400;
-  font-size: 14px;
   color: var(--low-text-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
 }
 
 .what-we-do-title {
-  font-weight: 700;
-  font-size: 36px;
   color: var(--text-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
 }
 
 .team {
@@ -88,21 +100,33 @@ a {
 }
 
 .team-title {
-  font-weight: 700;
-  font-size: 36px;
   color: var(--text-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.person-card {
+  width: 270px;
+  height: 368px;
+  border-radius: 0px 0px 4px 4px;
+  background: #FFF;
 }
 
 .team-names {
-  font-weight: 500;
+  color: #212121;
   font-size: 16px;
-  color: var(--text-color);
+  font-weight: 500;
+  line-height: 1.18;
 }
 
 .team-text {
-  font-weight: 400;
-  font-size: 16px;
   color: var(--low-text-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.18;
 }
 
 footer {
@@ -110,37 +134,39 @@ footer {
 }
 
 .footer-logo {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
+  font-family: "Raleway", sans-serif;;
   font-size: 26px;
-  color: #FFFFFF;
+  font-weight: 700;
+  line-height: 1.38;
+  color: #FFF;
 }
 
 .footer-address-link {
-  font-weight: 400;
+  color: #FFF;
   font-size: 14px;
-  font-style: normal;
-  color: #ffffff;
+  font-weight: 400;
+  line-height: 1.71;
 }
 
 .footer-info {
-  font-weight: 400;
+  color: var(--footer-text-color);
   font-size: 14px;
-  font-style: normal;
-  color: #ffffff60;
+  font-weight: 400;
+  line-height: 1.71;
 }
 
 .project-name {
-  font-weight: 700;
-  font-size: 18px;
   color: var(--text-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
 }
 
 .project-type {
-  font-weight: 400;
-  font-size: 16px;
   color: var(--low-text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.87;
 }
 
 .filter-all {
