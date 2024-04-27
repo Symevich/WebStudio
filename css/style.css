@@ -20,7 +20,7 @@ body {
 }
 
 .header-logo {
-  color: var(--accent-color);
+  color: #000;
   font-family: "Raleway", sans-serif;;
   font-size: 26px;
   font-weight: 700;
@@ -40,7 +40,7 @@ a {
   color: var(--accent-color);
 }
 
-.navigation-item {
+.header-link {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -173,12 +173,12 @@ footer {
   width: 73px;
   height: 38px;
   border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
+  background: #2196F3;
+  color: #FFF;
   text-align: center;
-  color: #ffffff;
-  border: 0px;
-  background-color: var(--accent-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
   cursor: pointer;
 }
 
@@ -186,11 +186,11 @@ footer {
   width: 125px;
   height: 38px;
   border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
-  text-align: center;
   color: var(--text-color);
-  border: 0px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
   cursor: pointer;
 }
 
@@ -198,11 +198,11 @@ footer {
   width: 112px;
   height: 38px;
   border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
-  text-align: center;
   color: var(--text-color);
-  border: 0px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
   cursor: pointer;
 }
 
@@ -210,11 +210,11 @@ footer {
   width: 103px;
   height: 38px;
   border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
-  text-align: center;
   color: var(--text-color);
-  border: 0px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
   cursor: pointer;
 }
 
@@ -222,10 +222,10 @@ footer {
   width: 130px;
   height: 38px;
   border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
-  text-align: center;
   color: var(--text-color);
-  border: 0px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
   cursor: pointer;
 }
