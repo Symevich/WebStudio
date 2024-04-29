@@ -47,6 +47,10 @@ a {
   color: var(--text-color);
 }
 
+.header-link:hover {
+  color: var(--accent-color);
+}
+
 .order {
   background-color: var(--hat-color);
 }
