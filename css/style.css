@@ -57,7 +57,6 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
   outline: 1px solid red;
 }
 
@@ -288,6 +287,11 @@ footer {
   line-height: 1.87;
 }
 
+.filter-button {
+  display: inline-block;
+  margin-right: 8px;
+}
+
 .filter-all {
   width: 73px;
   height: 38px;
@@ -435,4 +439,20 @@ footer {
   font-weight: 500;
   line-height: 1.62;
   cursor: pointer;
+}
+
+.project-cont {
+  width: 370px;
+  height: 404px;
+  flex-shrink: 0;
+  border: 1px solid #EEE;
+  padding-right: 30px;
+}
+
+.project-item {
+  display: inline-block;
+}
+
+.project-row1 {
+  margin-top: 50px;
 }
