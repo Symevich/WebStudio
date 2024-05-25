@@ -62,7 +62,13 @@ img {
 }
 
 header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
+}
+
+header > .container {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-logo {
@@ -74,13 +80,6 @@ header {
   margin-right: 93px;
 }
 
-header > .container {
-  padding-top: 24px;
-  padding-bottom: 25px;
-  display: flex;
-  justify-content: right;
-}
-
 .header-list {
   display: flex;
   gap: 50px;
@@ -88,13 +87,10 @@ header > .container {
   margin-bottom: auto;
 }
 
-nav + .header-list {
-  margin-left: 344px;
-}
-
-nav {
+.header-navigation {
   margin-top: auto;
   margin-bottom: auto;
+  margin-right: 344px;
 }
 
 .header-link {
@@ -193,7 +189,7 @@ nav {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .pluses-text {
@@ -259,6 +255,7 @@ nav {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.18;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -438,7 +435,7 @@ footer {
 }
 
 .projects {
-  padding-bottom: 94px;x
+  padding-bottom: 94px;
 }
 
 .projects-list {
@@ -451,8 +448,16 @@ footer {
   width: 370px;
   height: 404px;
   flex-shrink: 0;
-  border: 1px solid #EEE;
-  background: #FFF;
+  border: 1px solid #eee;
+  background: #fff;
+}
+
+.project-text {
+  width: 322px;
+  height: 70px;
+  flex-shrink: 0;
+  margin: 20px 24px 20px 24px;
+  text-align: left;
 }
 
 .project-name {
