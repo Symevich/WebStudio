@@ -317,28 +317,15 @@ footer {
   line-height: 1.71;
 }
 
-.project-name {
-  color: var(--text-color);
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 2;
-}
-
-.project-type {
-  color: var(--low-text-color);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.87;
+.filters {
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .filters-list {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
-}
-
-.filter-button {
-  margin-right: 8px;
+  gap: 8px;
 }
 
 .filter-all {
@@ -369,16 +356,8 @@ footer {
 }
 
 .filter-website:hover {
-  width: 125px;
-  height: 38px;
-  border: 0px;
-  border-radius: 4px;
   background: var(--accent-color);
   color: #fff;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.62;
   cursor: pointer;
 }
 
@@ -396,16 +375,8 @@ footer {
 }
 
 .filter-apps:hover {
-  width: 112px;
-  height: 38px;
-  border: 0px;
-  border-radius: 4px;
   background: var(--accent-color);
   color: #fff;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.62;
   cursor: pointer;
 }
 
@@ -423,16 +394,8 @@ footer {
 }
 
 .filter-design:hover {
-  width: 103px;
-  height: 38px;
-  border: 0px;
-  border-radius: 4px;
   background: var(--accent-color);
   color: #fff;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.62;
   cursor: pointer;
 }
 
@@ -450,16 +413,8 @@ footer {
 }
 
 .filter-design:hover {
-  width: 103px;
-  height: 38px;
-  border: 0px;
-  border-radius: 4px;
   background: var(--accent-color);
   color: #fff;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.62;
   cursor: pointer;
 }
 
@@ -477,29 +432,19 @@ footer {
 }
 
 .filter-marketing:hover {
-  width: 130px;
-  height: 38px;
-  border: 0px;
-  border-radius: 4px;
   background: var(--accent-color);
   color: #fff;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.62;
   cursor: pointer;
+}
+
+.projects {
+  padding-bottom: 94px;x
 }
 
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 94px;
-  margin-top: 50px;
-}
-
-.project-item:nth-child(-n+6) {
-  margin-bottom: 30px;
+  gap: 30px;
 }
 
 .project-cont {
@@ -507,5 +452,21 @@ footer {
   height: 404px;
   flex-shrink: 0;
   border: 1px solid #EEE;
-  padding-right: 30px;
+  background: #FFF;
+}
+
+.project-name {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 1.08px;
+}
+
+.project-type {
+  color: var(--low-text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.87;
+  letter-spacing: 0.48px;
 }
