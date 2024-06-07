@@ -440,6 +440,7 @@ footer {
 
 .projects-list {
   display: flex;
+  flex-basis: calc((100% - 90px) / 3);
   flex-wrap: wrap;
   gap: 30px;
 }
