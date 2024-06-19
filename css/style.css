@@ -156,6 +156,22 @@ header > .container {
   text-align: left;
 }
 
+.pluses-item:nth-child(1)::before {
+  content: url(../img/antenna.webp);
+}
+
+.pluses-item:nth-child(2)::before {
+  content: url(../img/clock.webp);
+}
+
+.pluses-item:nth-child(3)::before {
+  content: url(../img/noutbuk.webp);
+}
+
+.pluses-item:nth-child(4)::before {
+  content: url(../img/astronaut.webp);
+}
+
 .pluses-titles {
   color: var(--text-color);
   font-size: 14px;
@@ -163,6 +179,7 @@ header > .container {
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .pluses-text {
