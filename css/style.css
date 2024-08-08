@@ -101,6 +101,12 @@ header > .container {
   color: var(--accent-color);
 }
 
+.mail-svg {
+  fill: var(--low-text-color);
+  width: 20px;
+  height: 20px;
+}
+
 .low-header-link {
   color: var(--low-text-color);
   font-size: 14px;
