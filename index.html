@@ -59,7 +59,7 @@
           Ефективні рішення для <br>
           вашого бізнесу
         </h1>
-        <button type="button" class="order-button">Замовити послугу</button>
+        <button type="button" class="order-button" data-modal-open>Замовити послугу</button>
       </div>
     </section>
     <!-- Плюсі команди -->
@@ -350,9 +350,9 @@
       </div>
     </div>
   </footer>
-  <div class="backdrop">
+  <div class="backdrop" data-modal>
     <div class="modal">
-      <div class="cross-circle">
+      <div class="cross-circle" data-modal-close>
         <svg class="cross">
           <use href="./img/symbol-defs.svg#cross"></use>
         </svg>
@@ -400,6 +400,6 @@
       </form>
     </div>
   </div>
+  <script src="./js/modal.js"></script>
 </body>
-
 </html>

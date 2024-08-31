@@ -486,6 +486,12 @@ footer {
   background: rgba(0, 0, 0, 0.2);
 }
 
+.backdrop.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
 .modal {
   width: 528px;
   height: 581px;
