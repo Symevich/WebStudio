@@ -5,9 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0" />
   <title>Document</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -362,36 +360,41 @@
       <h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
       <form class="modal-form">
         <div class="modal-box">
-          <label class="modal-label"><span class="modal-input-text">Ім'я</span>
-            <input class="modal-input" type="text">
+          <label class="modal-label">Ім'я
+            <input type="text" class="modal-input">
+            <div class="modal-svg-box">
+              <svg class="modal-svg">
+                <use href="./img/symbol-defs.svg#person"></use>
+              </svg>
+            </div>
           </label>
-          <svg class="modal-svg">
-            <use href="./img/symbol-defs.svg#person"></use>
-          </svg>
         </div>
         <div class="modal-box">
-          <label class="modal-label"><span class="modal-input-text">Телефон</span>
-            <input class="modal-input" type="tel" />
+          <label class="modal-label">Телефон
+            <input type="text" class="modal-input">
+            <div class="modal-svg-box">
+              <svg class="modal-svg">
+                <use href="./img/symbol-defs.svg#phone"></use>
+              </svg>
+            </div>
           </label>
-          <svg class="modal-svg">
-            <use href="./img/symbol-defs.svg#phone"></use>
-          </svg>
         </div>
         <div class="modal-box">
-          <label class="modal-label"><span class="modal-input-text">Пошта</span>
-            <input class="modal-input" type="email">
+          <label class="modal-label">Пошта
+            <input type="text" class="modal-input">
+            <div class="modal-svg-box">
+              <svg class="modal-svg">
+                <use href="./img/symbol-defs.svg#modalmail"></use>
+              </svg>
+            </div>
           </label>
-          <svg class="modal-svg">
-            <use href="./img/symbol-defs.svg#modalmail"></use>
-          </svg>
         </div>
-        <label class="modal-label"><span class="modal-input-text">Коментар</span>
-          <textarea name="Коментар" class="modal-coment" placeholder="Введіть текст"></textarea>
+        <label class="modal-label">Коментар
+          <textarea class="modal-comment"></textarea>
         </label>
-        <div class="checkbox-box">
-          <input type="checkbox" class="modal-checkbox">
-          <p class="checkbox-text">Погоджуюся з розсилкою та приймаю </p>
-          <a href="checkbox-link">Умови договору</a>
+        <div class="check-box">
+          <input type="checkbox" class="modal-checkbox" id="happy">
+          <p class="check-text">Погоджуюся з розсилкою та приймаю <a href="#" class="check-link"> Умови договору</a></p>
         </div>
         <button type="submit" class="modal-btn">Відправити</button>
       </form>
