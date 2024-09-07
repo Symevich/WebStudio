@@ -603,6 +603,8 @@ footer {
   width: 100%;
   margin-top: 4px;
   outline: none;
+  resize: none;
+  overflow: hidden;
 }
 
 .modal-comment:hover {
@@ -619,6 +621,12 @@ footer {
   align-items: center;
   gap: 8.38px;
   align-self: center;
+}
+
+.check-label {
+  display: flex;
+  align-items: center;
+  gap: 8.38px;
 }
 
 .modal-checkbox {
