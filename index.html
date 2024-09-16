@@ -261,11 +261,11 @@
         <h2 class="clients-title">Постійні клієнти</h2>
         <ul class="clients-list">
           <li class="clients-item">
-            <div href="#" class="clients-link">
+            <a href="#" class="clients-link">
               <svg class="clients-svg">
                 <use href="./img/symbol-defs.svg#yaco"></use>
               </svg>
-              </a>
+            </a>
           </li>
           <li class="clients-item">
             <a href="#" class="clients-link">
@@ -368,49 +368,37 @@
   </footer>
   <div class="backdrop" data-modal>
     <div class="modal">
-      <div class="cross-circle" data-modal-close>
-        <svg class="cross">
+      <button class="modal-close" data-modal-close>
+        <svg class="modal-cross">
           <use href="./img/symbol-defs.svg#cross"></use>
         </svg>
-      </div>
+      </button>
       <h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
       <form class="modal-form">
-        <div class="modal-box">
-          <label class="modal-label">Ім'я
-            <input type="text" class="modal-input">
-            <div class="modal-svg-box">
-              <svg class="modal-svg">
-                <use href="./img/symbol-defs.svg#person"></use>
-              </svg>
-            </div>
-          </label>
-        </div>
-        <div class="modal-box">
-          <label class="modal-label">Телефон
-            <input type="text" class="modal-input">
-            <div class="modal-svg-box">
-              <svg class="modal-svg">
-                <use href="./img/symbol-defs.svg#phone"></use>
-              </svg>
-            </div>
-          </label>
-        </div>
-        <div class="modal-box">
-          <label class="modal-label">Пошта
-            <input type="text" class="modal-input">
-            <div class="modal-svg-box">
-              <svg class="modal-svg">
-                <use href="./img/symbol-defs.svg#modalmail"></use>
-              </svg>
-            </div>
-          </label>
-        </div>
+        <label class="modal-label">Ім'я
+          <input type="text" class="modal-input" required>
+          <svg class="modal-svg">
+            <use href="./img/symbol-defs.svg#person"></use>
+          </svg>
+        </label>
+        <label class="modal-label">Телефон
+          <input type="text" class="modal-input" required>
+          <svg class="modal-svg">
+            <use href="./img/symbol-defs.svg#phone"></use>
+          </svg>
+        </label>
+        <label class="modal-label">Пошта
+          <input type="text" class="modal-input" required>
+          <svg class="modal-svg">
+            <use href="./img/symbol-defs.svg#modalmail"></use>
+          </svg>
+        </label>
         <label class="modal-label">Коментар
           <textarea class="modal-comment"></textarea>
         </label>
-        <div class="check-box">
+        <div class="checkbox-cover">
           <label class="check-label">
-            <input type="checkbox" class="modal-checkbox">
+            <input type="checkbox" class="modal-checkbox" required>
             <p class="check-text">Погоджуюся з розсилкою та приймаю <a href="#" class="check-link"> Умови договору</a>
             </p>
           </label>

@@ -67,7 +67,7 @@ header {
   padding-bottom: 25px;
 }
 
-header > .container {
+header>.container {
   display: flex;
   align-items: center;
 }
@@ -97,6 +97,7 @@ header > .container {
   color: var(--text-color);
 }
 
+.header-link:focus,
 .header-link:hover {
   color: var(--accent-color);
 }
@@ -124,21 +125,22 @@ header > .container {
   align-items: center;
 }
 
+.low-header-link:focus,
 .low-header-link:hover {
   color: var(--accent-color);
+
   .mail-svg {
     fill: var(--accent-color);
   }
+
   .phone-svg {
     fill: var(--accent-color);
   }
 }
 
 .order {
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
     url(../img/team.webp);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -169,7 +171,7 @@ header > .container {
   padding: 10px 32px;
 }
 
-.order-button:hover {
+.order-button:focus .order-button:hover {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -336,8 +338,10 @@ header > .container {
   align-items: center;
 }
 
+.ppl-social-link:focus,
 .ppl-social-link:hover {
   background-color: var(--accent-color);
+
   .ppl-social-svg {
     fill: #fff;
   }
@@ -379,8 +383,10 @@ header > .container {
   fill: #afb1b8;
 }
 
+.clients-link:focus,
 .clients-link:hover {
   border-color: var(--accent-color);
+
   .clients-svg {
     fill: var(--accent-color);
   }
@@ -474,6 +480,7 @@ footer {
   fill: #fff;
 }
 
+.social-link:focus,
 .social-link:hover {
   background-color: var(--accent-color);
 }
@@ -573,7 +580,7 @@ footer {
   padding: 40px;
 }
 
-.cross-circle {
+.modal-close {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -587,18 +594,19 @@ footer {
   top: 0;
   margin-top: 8px;
   margin-right: 8px;
+  background-color: transparent;
+  outline: none;
 }
 
-.cross {
+.modal-cross {
   width: 18px;
   height: 18px;
 }
 
-.cross-circle:hover {
-  .cross {
-    fill: var(--accent-color);
-    cursor: pointer;
-  }
+.modal-close:focus > .modal-cross,
+.modal-close:hover > .modal-cross {
+  fill: var(--accent-color);
+  cursor: pointer;
 }
 
 .modal-title {
@@ -614,10 +622,7 @@ footer {
 .modal-form {
   display: flex;
   flex-direction: column;
-}
-
-.modal-box {
-  margin-bottom: 10px;
+  gap: 10px;
 }
 
 .modal-label {
@@ -626,11 +631,12 @@ footer {
   font-weight: 400;
   line-height: 1.16;
   letter-spacing: 0.12px;
+  position: relative;
 }
 
 .modal-input {
   display: block;
-  width: 100%;
+  width: 440px;
   height: 40px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -639,25 +645,29 @@ footer {
   outline: none;
 }
 
-.modal-input:hover {
-  border-color: var(--accent-color);
+.modal-svg {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 50%;
+  left: 12px;
+}
+
+.modal-label:hover {
+  .modal-input {
+    border-color: var(--accent-color);
+  }
+  .modal-svg {
+    fill: var(--accent-color);
+  }
 }
 
 .modal-input:focus {
   border-color: var(--accent-color);
 }
 
-.modal-svg-box {
-  position: relative;
-  bottom: 29px;
-  left: 12px;
-}
-
-.modal-svg {
-  width: 18px;
-  height: 18px;
-  position: absolute;
-  fill: var(--text-color);
+.modal-input:focus + .modal-svg {
+  fill: var(--accent-color);
 }
 
 .modal-comment {
@@ -667,22 +677,19 @@ footer {
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   margin-bottom: 20px;
-  width: 100%;
+  width: 440px;
   margin-top: 4px;
   outline: none;
   resize: none;
   overflow: hidden;
 }
 
+.modal-comment:focus,
 .modal-comment:hover {
   border-color: var(--accent-color);
 }
 
-.modal-comment:focus {
-  border-color: var(--accent-color);
-}
-
-.check-box {
+.checkbox-cover {
   margin-bottom: 30px;
   display: flex;
   align-items: center;
@@ -752,6 +759,7 @@ footer {
   letter-spacing: 0.48px;
 }
 
+.filter-button:focus,
 .filter-button:hover {
   background: var(--accent-color);
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
@@ -776,6 +784,7 @@ footer {
   flex-basis: calc((100% - 60px) / 3);
 }
 
+.project-item:focus,
 .project-item:hover {
   cursor: pointer;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12),
