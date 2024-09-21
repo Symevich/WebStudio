@@ -90,11 +90,41 @@ header>.container {
   margin-right: auto;
 }
 
+.header-item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
 .header-link {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   color: var(--text-color);
+}
+
+.header-underline-1,
+.header-underline-2,
+.header-underline-3 {
+  background-color: var(--accent-color);
+  border-radius: 2px;
+  position: absolute;
+  top: 48px;
+}
+
+.header-underline-1 {
+  width: 48px;
+  height: 4px;
+}
+
+.header-underline-2 {
+  width: 78px;
+  height: 4px;
+}
+
+.header-underline-3 {
+  width: 70px;
+  height: 4px;
 }
 
 .header-link:focus,
@@ -833,6 +863,7 @@ footer {
   cursor: pointer;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+
   .card-overlay {
     transform: translatey(0);
   }
